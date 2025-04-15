@@ -1,0 +1,779 @@
+2025-02-18T04:56:12.537Z | INFO   | Server started in PORT | 3001
+2025-02-18T04:56:12.541Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:689:11)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-02-18T04:56:38.797Z | INFO   | API HIT : [GET] /static/js/bundle.js
+2025-02-18T04:56:38.799Z | ERROR  | [Invalid Route] /static/js/bundle.js
+2025-02-18T04:56:39.223Z | INFO   | API HIT : [GET] /manifest.json
+2025-02-18T04:56:39.224Z | ERROR  | [Invalid Route] /manifest.json
+2025-02-18T04:56:39.226Z | INFO   | API HIT : [GET] /static/logo.png
+2025-02-18T04:56:39.227Z | ERROR  | [Invalid Route] /static/logo.png
+2025-02-18T04:56:39.238Z | INFO   | API HIT : [GET] /static/logo.png
+2025-02-18T04:56:39.239Z | ERROR  | [Invalid Route] /static/logo.png
+2025-02-18T04:57:10.763Z | INFO   | Server started in PORT | 3001
+2025-02-18T04:57:14.407Z | ERROR  | DB Connection Fail | MongoServerError: bad auth : authentication failed
+    at Connection.onMessage (C:\Users\whack\SplitApp\node_modules\mongodb\lib\cmap\connection.js:210:30)
+    at MessageStream.<anonymous> (C:\Users\whack\SplitApp\node_modules\mongodb\lib\cmap\connection.js:63:60)
+    at MessageStream.emit (node:events:519:28)
+    at processIncomingData (C:\Users\whack\SplitApp\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (C:\Users\whack\SplitApp\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at TLSSocket.ondata (node:internal/streams/readable:1007:22)
+    at TLSSocket.emit (node:events:519:28)
+2025-02-18T04:57:43.855Z | INFO   | API HIT : [GET] /
+2025-02-18T04:57:43.855Z | ERROR  | [Invalid Route] /
+2025-02-18T04:57:44.408Z | INFO   | API HIT : [GET] /favicon.ico
+2025-02-18T04:57:44.409Z | ERROR  | [Invalid Route] /favicon.ico
+2025-02-18T04:58:37.153Z | INFO   | Server started in PORT | 3001
+2025-02-18T04:58:40.758Z | INFO   | DB Connection Established
+2025-02-18T05:00:10.721Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-18T05:00:11.683Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-18T05:00:12.487Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T05:00:12.582Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T05:00:12.914Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T05:00:26.401Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T05:00:28.219Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T05:00:28.654Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T05:00:28.990Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T05:00:33.942Z | INFO   | API HIT : [POST] /api/users/v1/view
+2025-02-18T05:00:43.239Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T05:00:43.391Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T05:00:43.491Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T05:00:44.468Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2025-02-18T05:01:11.982Z | INFO   | API HIT : [POST] /api/group/v1/add
+2025-02-18T05:01:12.899Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T05:01:13.423Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T05:01:13.599Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-02-18T05:01:40.506Z | INFO   | API HIT : [POST] /api/group/v1/settlement
+2025-02-18T05:01:45.731Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T05:01:56.634Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T05:02:00.588Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T05:02:00.964Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T05:02:01.111Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-02-18T05:02:18.753Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T05:02:29.505Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T05:02:30.299Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T05:02:30.503Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-02-18T05:02:34.036Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T05:02:34.600Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T05:02:34.926Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T05:02:35.994Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T05:02:36.315Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T05:02:36.318Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T05:02:36.322Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T05:02:36.326Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T05:02:36.440Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T07:00:23.132Z | INFO   | Server started in PORT | 3001
+2025-02-18T07:00:52.321Z | INFO   | Server started in PORT | 3001
+2025-02-18T07:01:22.380Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: B8320000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-02-18T07:02:38.574Z | INFO   | Server started in PORT | 3001
+2025-02-18T07:03:12.838Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: getaddrinfo ENOTFOUND piyushcluster0-shard-00-02.stmie.mongodb.net
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-02-18T07:09:15.287Z | INFO   | Server started in PORT | 3001
+2025-02-18T07:09:16.254Z | INFO   | DB Connection Established
+2025-02-18T07:09:52.830Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T07:09:52.903Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T07:09:52.929Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T07:09:53.462Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T07:09:53.471Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T07:09:53.475Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T07:09:53.478Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T07:09:53.516Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T07:09:53.542Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T07:39:23.321Z | INFO   | Server started in PORT | 3001
+2025-02-18T07:39:33.645Z | INFO   | DB Connection Established
+2025-02-18T07:39:56.355Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:39:56.355Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:39:57.346Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:39:57.346Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:39:59.346Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:39:59.346Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:00.353Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:40:00.353Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:04.346Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:40:04.346Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:05.347Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:40:05.347Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:13.344Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:40:13.344Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:14.351Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:40:14.351Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:30.373Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:40:30.373Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:31.360Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:40:31.360Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:41:03.383Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:41:03.383Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:41:04.381Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:41:04.381Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:42:08.379Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:42:08.379Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:42:09.372Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:42:09.372Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:44:17.374Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:44:17.374Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:44:18.371Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:44:18.371Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:48:37.861Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:48:37.861Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:48:37.880Z | INFO   | API HIT : [GET] /ws
+2025-02-18T07:48:37.880Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:53:13.102Z | INFO   | Server started in PORT | 3001
+2025-02-18T07:53:14.850Z | INFO   | DB Connection Established
+2025-02-18T08:00:52.735Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-18T08:00:53.111Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-18T08:01:11.903Z | INFO   | Server started in PORT | 3001
+2025-02-18T08:01:13.232Z | INFO   | DB Connection Established
+2025-02-18T08:01:31.435Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:01:31.532Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:01:31.558Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:01:32.131Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:01:32.134Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:01:32.136Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:01:32.138Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:01:32.220Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:01:32.239Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:02:17.927Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:02:18.085Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:02:18.410Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:02:18.718Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:02:19.029Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:02:19.030Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:02:19.032Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:02:19.228Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:02:19.247Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:02:44.754Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:02:44.930Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:02:45.066Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:02:45.071Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:02:45.194Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:02:45.218Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:02:46.298Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:02:46.300Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:02:46.302Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:02:46.305Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:02:46.450Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:02:46.545Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:03:12.394Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:03:12.560Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:03:12.940Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:03:13.216Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:03:13.532Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:03:13.536Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:03:13.538Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:03:13.690Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:03:13.706Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:03:20.493Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:03:20.655Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:03:20.677Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:03:20.999Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:03:21.324Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:03:21.328Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:03:21.331Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:03:21.333Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:03:21.485Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:03:43.722Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:04:03.222Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2025-02-18T08:04:45.781Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:04:45.954Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:04:46.029Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:04:46.631Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:04:46.947Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:04:46.950Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:04:46.952Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:04:47.085Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:04:47.095Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:05:00.179Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:05:00.292Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:05:00.366Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:05:00.632Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:05:00.944Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:05:00.947Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:05:00.949Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:05:01.137Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:05:01.493Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:06:33.207Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:06:37.111Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:06:37.374Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:06:37.748Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-02-18T08:09:07.766Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:09:07.895Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:09:08.007Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:09:08.372Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:09:08.691Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:09:08.700Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:09:08.704Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:09:08.832Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:09:09.155Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:10:55.627Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:10:55.719Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:10:56.051Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:10:56.360Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:10:56.685Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:10:56.688Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:10:56.691Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:10:56.765Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:10:56.780Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:11:50.880Z | INFO   | API HIT : [POST] /api/users/v1/view
+2025-02-18T08:12:19.117Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:12:19.453Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:12:19.473Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:12:20.145Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:12:20.149Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:12:20.152Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:12:20.155Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:12:20.385Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:12:20.406Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:15:59.719Z | INFO   | API HIT : [POST] /api/users/v1/view
+2025-02-18T08:17:04.188Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:17:04.276Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:17:04.374Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:17:04.912Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:17:04.914Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:17:04.916Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:17:04.917Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:17:05.001Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:17:05.237Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:18:42.776Z | INFO   | API HIT : [POST] /api/users/v1/view
+2025-02-18T08:19:12.456Z | INFO   | API HIT : [POST] /api/users/v1/view
+2025-02-18T08:19:35.370Z | INFO   | API HIT : [POST] /api/users/v1/view
+2025-02-18T08:19:54.126Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:19:57.410Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2025-02-18T08:20:03.155Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:20:03.262Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:20:03.584Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:20:04.000Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:20:04.319Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:20:04.323Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:20:04.326Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:20:04.486Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:20:04.504Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:20:40.284Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-18T08:20:40.844Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-18T08:21:01.061Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-18T08:21:01.213Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email validation fail!!
+2025-02-18T08:21:09.709Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-18T08:21:09.922Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email Id already present please login!
+2025-02-18T08:21:16.111Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-18T08:21:16.472Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-18T08:21:32.077Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-18T08:21:33.277Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:21:33.480Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:21:33.493Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:21:34.333Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:21:34.334Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:21:34.335Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:21:34.335Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:21:34.419Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:21:34.583Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:21:36.739Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:21:40.049Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:21:40.384Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:21:40.536Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-02-18T08:21:47.623Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2025-02-18T08:21:47.876Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:22:05.612Z | INFO   | API HIT : [POST] /api/group/v1/edit
+2025-02-18T08:22:06.736Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:22:06.868Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:22:07.061Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-02-18T08:22:12.222Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:22:57.634Z | INFO   | API HIT : [POST] /api/expense/v1/add
+2025-02-18T08:22:59.254Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:22:59.404Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:22:59.969Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:22:59.971Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:23:00.121Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:23:08.547Z | INFO   | API HIT : [POST] /api/group/v1/settlement
+2025-02-18T08:23:12.965Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:23:12.969Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:23:13.204Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:23:17.515Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2025-02-18T08:23:19.746Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:23:21.373Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:23:21.950Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:23:22.216Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:23:22.467Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:23:22.646Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:25:29.436Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:25:29.936Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:25:30.183Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:25:30.471Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:25:30.652Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:26:16.371Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:26:32.354Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:26:41.022Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:26:51.604Z | INFO   | API HIT : [POST] /api/group/v1/settlement
+2025-02-18T08:26:53.422Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:26:53.425Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:26:53.688Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:26:59.200Z | INFO   | API HIT : [POST] /api/expense/v1/view
+2025-02-18T08:27:05.938Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:27:06.204Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:27:06.410Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:27:06.718Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:27:07.471Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:27:27.415Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:27:28.919Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:27:29.398Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:27:29.484Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:27:29.932Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:27:39.740Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:27:40.048Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:27:40.049Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:27:40.492Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:27:40.506Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:27:40.751Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:27:41.017Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:27:41.106Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:28:13.908Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2025-02-18T08:28:16.656Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:28:20.185Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:28:20.431Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:28:21.148Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:28:21.465Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:28:22.213Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:28:23.322Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:28:52.854Z | INFO   | API HIT : [POST] /api/expense/v1/add
+2025-02-18T08:28:55.031Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:28:55.554Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:28:55.798Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:28:56.106Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:28:56.369Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:29:26.420Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-18T08:29:27.079Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-18T08:29:35.282Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-18T08:29:35.778Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-18T08:29:43.868Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-18T08:29:44.074Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (C:\Users\whack\SplitApp\components\user.js:74:23)
+2025-02-18T08:29:47.248Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-18T08:29:48.371Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:29:48.493Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:29:49.042Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:29:49.046Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:29:49.048Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:29:49.050Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:29:49.296Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:30:04.352Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:30:06.245Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:30:06.411Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:30:07.065Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:30:07.067Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:30:07.334Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:30:24.000Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:30:24.408Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:30:24.668Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:30:24.945Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:30:24.948Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:30:24.950Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:30:24.951Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:30:29.229Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2025-02-18T08:30:30.132Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:31:06.062Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-18T08:31:06.754Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:31:06.864Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:31:07.354Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:31:07.356Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:31:07.358Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:31:07.363Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:31:07.612Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:32:40.135Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:32:41.631Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:32:41.718Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:32:42.206Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:32:42.208Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:32:42.471Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:32:50.054Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:32:55.483Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:32:55.735Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:32:55.903Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:32:56.170Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:32:56.265Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:33:05.213Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2025-02-18T08:33:05.467Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:33:09.117Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2025-02-18T08:33:12.968Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:33:13.235Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:33:13.443Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:33:13.751Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:33:13.752Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:33:13.754Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:33:13.856Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:34:14.349Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-18T08:34:15.082Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-18T08:34:15.159Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:34:15.700Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-18T08:34:15.703Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:34:15.706Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-18T08:34:15.707Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-18T08:34:15.923Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-18T08:34:18.040Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-18T08:34:20.361Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-18T08:34:20.460Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-18T08:34:20.900Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-18T08:34:20.903Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-18T08:34:21.144Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-18T08:35:21.898Z | INFO   | API HIT : [POST] /api/users/v1/view
+2025-02-18T08:36:14.008Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-18T08:36:14.261Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-25T06:54:56.882Z | INFO   | Server started in PORT | 3001
+2025-02-25T06:55:27.133Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: read ECONNRESET
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+2025-02-25T06:56:14.871Z | INFO   | Server started in PORT | 3001
+2025-02-25T06:56:45.181Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: read ECONNRESET
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+2025-02-25T06:58:11.507Z | INFO   | Server started in PORT | 3001
+2025-02-25T06:58:14.528Z | INFO   | DB Connection Established
+2025-02-25T06:59:00.952Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-25T06:59:01.423Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-25T06:59:22.963Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-25T06:59:23.432Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-25T06:59:30.398Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-25T06:59:30.707Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-25T06:59:42.571Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-25T06:59:43.383Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-25T06:59:43.840Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T06:59:44.259Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-25T06:59:44.578Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T06:59:44.581Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-25T06:59:44.584Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-25T06:59:44.849Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-25T07:00:26.334Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:00:30.222Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:00:30.735Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:00:30.989Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:00:31.275Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:00:31.448Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:00:45.461Z | INFO   | API HIT : [POST] /api/group/v1/settlement
+2025-02-25T07:00:46.549Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:00:46.864Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:00:47.325Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:00:56.636Z | INFO   | API HIT : [POST] /api/expense/v1/view
+2025-02-25T07:00:57.149Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:05:16.928Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-25T07:05:17.237Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-25T07:06:59.515Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-25T07:06:59.863Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-25T07:07:10.232Z | INFO   | Server started in PORT | 3001
+2025-02-25T07:07:12.388Z | INFO   | DB Connection Established
+2025-02-25T07:07:16.450Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-25T07:07:16.832Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } | request received: [object Object]
+2025-02-25T07:07:29.600Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-25T07:07:30.041Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } | request received: [object Object]
+2025-02-25T07:07:57.656Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-25T07:07:58.101Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } | request received: [object Object]
+2025-02-25T07:08:09.029Z | INFO   | Server started in PORT | 3001
+2025-02-25T07:08:11.737Z | INFO   | DB Connection Established
+2025-02-25T07:08:14.908Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-25T07:08:15.412Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } | request received: abishek0411@gmail.com
+2025-02-25T07:16:55.084Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-25T07:16:55.754Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-25T07:16:55.872Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:16:56.394Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-25T07:16:56.402Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:16:56.405Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-25T07:16:56.412Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-25T07:16:56.634Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-25T07:17:08.150Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:17:26.015Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2025-02-25T07:17:38.518Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:17:39.452Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:17:39.849Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:17:40.118Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:17:40.302Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:17:40.407Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:19:34.467Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-25T07:19:34.732Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:19:34.926Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-25T07:19:35.238Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:19:35.242Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-25T07:19:35.245Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-25T07:19:35.355Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-25T07:22:13.837Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-25T07:22:14.301Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-25T07:22:14.720Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:22:14.969Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-25T07:22:15.240Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:22:15.244Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-25T07:22:15.247Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-25T07:22:15.249Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-25T07:23:22.966Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:23:38.662Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:24:28.052Z | ERROR  | URL : /api/group/v1/view | staus : undefined | message: read ECONNRESET
+2025-02-25T07:24:28.376Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:24:58.387Z | ERROR  | URL : /api/expense/v1/group | staus : undefined | message: read ECONNRESET
+2025-02-25T07:25:53.426Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:26:00.732Z | INFO   | Server started in PORT | 3001
+2025-02-25T07:26:31.016Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: 68450000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+2025-02-25T07:27:23.053Z | INFO   | Server started in PORT | 3001
+2025-02-25T07:27:24.629Z | INFO   | DB Connection Established
+2025-02-25T07:27:30.681Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-25T07:27:30.902Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:27:31.211Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-25T07:27:31.522Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:27:31.526Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-25T07:27:31.533Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-25T07:27:31.536Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-25T07:27:34.132Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:27:36.684Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:27:36.937Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:27:37.148Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:27:37.452Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:27:37.951Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:27:41.836Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-25T07:27:42.327Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:27:42.657Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-25T07:27:42.977Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:27:42.981Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-25T07:27:42.986Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-25T07:27:43.178Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-25T07:27:43.507Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:29:24.749Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:29:25.000Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:29:25.260Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:29:25.440Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:29:25.530Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:29:31.302Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:30:07.935Z | INFO   | API HIT : [POST] /api/expense/v1/add
+2025-02-25T07:30:09.435Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:30:09.532Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:30:09.982Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:30:09.986Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:30:10.118Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:30:28.387Z | INFO   | API HIT : [POST] /api/group/v1/settlement
+2025-02-25T07:30:35.657Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:30:35.664Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:30:35.920Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:32:24.513Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:32:39.256Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:32:39.727Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:32:39.985Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:32:40.267Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:32:40.435Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:33:32.803Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:33:53.150Z | INFO   | API HIT : [POST] /api/expense/v1/add
+2025-02-25T07:33:54.514Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:33:54.676Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:33:55.174Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:33:55.177Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:33:55.302Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:37:30.667Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-25T07:37:31.455Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-25T07:37:31.977Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-25T07:37:32.058Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-25T07:37:32.387Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:37:36.068Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:37:51.845Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2025-02-25T07:38:35.281Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-25T07:38:35.438Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email validation fail!! | request received: jd0854@srmist.edu.in
+2025-02-25T07:38:58.395Z | INFO   | API HIT : [POST] /api/users/v1/register
+2025-02-25T07:38:59.210Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-25T07:38:59.729Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-25T07:38:59.817Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-25T07:39:00.137Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:39:06.554Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2025-02-25T07:39:33.015Z | INFO   | API HIT : [POST] /api/group/v1/add
+2025-02-25T07:39:34.062Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:39:34.544Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:39:34.646Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-02-25T07:39:37.618Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:40:39.870Z | INFO   | API HIT : [POST] /api/expense/v1/add
+2025-02-25T07:40:41.502Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:40:42.019Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:40:42.352Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:40:42.678Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:40:42.826Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:40:50.892Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:41:18.379Z | INFO   | API HIT : [POST] /api/expense/v1/add
+2025-02-25T07:41:20.333Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:41:20.530Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:41:21.083Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:41:21.086Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:41:21.213Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:41:31.421Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:41:55.640Z | INFO   | API HIT : [POST] /api/expense/v1/add
+2025-02-25T07:41:57.123Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:41:57.596Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:41:57.858Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:41:58.157Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:41:58.411Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:42:13.919Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-25T07:42:14.358Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-25T07:42:14.823Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:42:15.517Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-25T07:42:15.830Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:42:15.834Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-25T07:42:15.836Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-25T07:42:15.938Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-25T07:42:21.313Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:42:23.288Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:42:23.716Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:42:23.965Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:42:24.250Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:42:24.427Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:43:23.185Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-25T07:43:23.450Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:43:23.721Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-25T07:43:24.038Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:43:24.040Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-25T07:43:24.043Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-25T07:43:24.225Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-25T07:43:41.306Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:43:42.739Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:43:43.164Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:43:43.420Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:43:43.710Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:43:43.984Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:44:16.355Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-25T07:44:17.168Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-25T07:44:17.579Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:44:18.684Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-25T07:44:18.686Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:44:18.688Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-25T07:44:18.689Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-25T07:44:18.938Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-25T07:44:21.157Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:44:22.603Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:44:22.799Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:44:23.239Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:44:23.241Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:44:23.490Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:44:28.989Z | INFO   | API HIT : [POST] /api/group/v1/settlement
+2025-02-25T07:44:29.493Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:44:37.605Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:44:37.929Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:44:38.464Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:45:56.202Z | INFO   | API HIT : [POST] /api/group/v1/settlement
+2025-02-25T07:45:56.469Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:46:34.311Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-02-25T07:46:34.741Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-25T07:46:34.849Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:46:35.407Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-25T07:46:35.409Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:46:35.413Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-25T07:46:35.416Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-25T07:46:35.662Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-02-25T07:46:47.422Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:46:51.401Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:46:51.500Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2025-02-25T07:46:51.940Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2025-02-25T07:46:51.943Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2025-02-25T07:46:52.204Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2025-02-25T07:47:05.270Z | INFO   | API HIT : [POST] /api/group/v1/settlement
+2025-02-25T07:47:05.707Z | INFO   | API HIT : [POST] /api/group/v1/view
+2025-02-25T07:47:16.012Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-02-25T07:47:16.422Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:47:16.685Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-02-25T07:47:16.957Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-02-25T07:47:16.960Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-02-25T07:47:16.963Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-02-25T07:47:16.964Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-04-11T07:49:23.784Z | INFO   | Server started in PORT | 3001
+2025-04-11T07:49:54.081Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: read ECONNRESET
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+2025-04-11T07:50:37.562Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-04-11T07:50:47.593Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\whack\SplitApp\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+2025-04-11T07:52:17.980Z | INFO   | Server started in PORT | 3001
+2025-04-11T07:52:48.135Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: read ECONNRESET
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+2025-04-11T07:53:00.152Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-04-11T07:53:10.171Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\whack\SplitApp\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+2025-04-11T08:02:26.095Z | INFO   | Server started in PORT | 3001
+2025-04-11T08:02:28.008Z | INFO   | DB Connection Established
+2025-04-11T08:02:39.478Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-04-11T08:02:39.788Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (C:\Users\whack\SplitApp\components\user.js:74:23)
+2025-04-11T08:02:49.664Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-04-11T08:02:49.863Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (C:\Users\whack\SplitApp\components\user.js:74:23)
+2025-04-11T08:02:54.312Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-04-11T08:02:54.625Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (C:\Users\whack\SplitApp\components\user.js:74:23)
+2025-04-11T08:04:00.954Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-04-11T08:04:01.198Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (C:\Users\whack\SplitApp\components\user.js:74:23)
+2025-04-15T18:20:17.745Z | INFO   | Server started in PORT | 3001
+2025-04-15T18:20:18.706Z | INFO   | DB Connection Established

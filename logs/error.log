@@ -1,0 +1,205 @@
+2025-02-18T04:56:12.541Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:689:11)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-02-18T04:56:38.799Z | ERROR  | [Invalid Route] /static/js/bundle.js
+2025-02-18T04:56:39.224Z | ERROR  | [Invalid Route] /manifest.json
+2025-02-18T04:56:39.227Z | ERROR  | [Invalid Route] /static/logo.png
+2025-02-18T04:56:39.239Z | ERROR  | [Invalid Route] /static/logo.png
+2025-02-18T04:57:14.407Z | ERROR  | DB Connection Fail | MongoServerError: bad auth : authentication failed
+    at Connection.onMessage (C:\Users\whack\SplitApp\node_modules\mongodb\lib\cmap\connection.js:210:30)
+    at MessageStream.<anonymous> (C:\Users\whack\SplitApp\node_modules\mongodb\lib\cmap\connection.js:63:60)
+    at MessageStream.emit (node:events:519:28)
+    at processIncomingData (C:\Users\whack\SplitApp\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (C:\Users\whack\SplitApp\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at TLSSocket.ondata (node:internal/streams/readable:1007:22)
+    at TLSSocket.emit (node:events:519:28)
+2025-02-18T04:57:43.855Z | ERROR  | [Invalid Route] /
+2025-02-18T04:57:44.409Z | ERROR  | [Invalid Route] /favicon.ico
+2025-02-18T05:00:12.582Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T05:00:28.654Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T05:00:43.391Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T05:01:13.599Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-02-18T05:02:01.111Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-02-18T05:02:30.503Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-02-18T05:02:34.600Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T05:02:36.440Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T07:01:22.380Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: B8320000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-02-18T07:03:12.838Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: getaddrinfo ENOTFOUND piyushcluster0-shard-00-02.stmie.mongodb.net
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+2025-02-18T07:09:52.903Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T07:09:53.516Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T07:39:56.355Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:39:57.346Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:39:59.346Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:00.353Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:04.346Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:05.347Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:13.344Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:14.351Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:30.373Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:40:31.360Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:41:03.383Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:41:04.381Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:42:08.379Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:42:09.372Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:44:17.374Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:44:18.371Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:48:37.861Z | ERROR  | [Invalid Route] /ws
+2025-02-18T07:48:37.880Z | ERROR  | [Invalid Route] /ws
+2025-02-18T08:00:53.111Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-18T08:01:31.532Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:01:32.220Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:02:18.085Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:02:19.247Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:02:45.194Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:02:46.450Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:03:12.560Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:03:13.690Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:03:20.655Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:03:21.485Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:04:45.954Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:04:47.085Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:05:00.292Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:05:01.137Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:06:37.748Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-02-18T08:09:07.895Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:09:08.832Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:10:55.719Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:10:56.780Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:12:19.453Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:12:20.385Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:17:04.276Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:17:05.001Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:20:03.262Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:20:04.486Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:20:40.844Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-18T08:21:01.213Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email validation fail!!
+2025-02-18T08:21:09.922Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email Id already present please login!
+2025-02-18T08:21:16.472Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-18T08:21:33.480Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-18T08:21:34.419Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-02-18T08:21:40.536Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-02-18T08:22:07.061Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-02-18T08:29:27.079Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-18T08:29:35.778Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-18T08:29:44.074Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (C:\Users\whack\SplitApp\components\user.js:74:23)
+2025-02-18T08:36:14.261Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-25T06:55:27.133Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: read ECONNRESET
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+2025-02-25T06:56:45.181Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: read ECONNRESET
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+2025-02-25T06:59:01.423Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-25T06:59:23.432Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-25T06:59:30.707Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-25T07:05:17.237Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-25T07:06:59.863Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null }
+2025-02-25T07:07:16.832Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } | request received: [object Object]
+2025-02-25T07:07:30.041Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } | request received: [object Object]
+2025-02-25T07:07:58.101Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } | request received: [object Object]
+2025-02-25T07:08:15.412Z | ERROR  | URL : /api/users/v1/register | staus : undefined | message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } | request received: abishek0411@gmail.com
+2025-02-25T07:24:28.052Z | ERROR  | URL : /api/group/v1/view | staus : undefined | message: read ECONNRESET
+2025-02-25T07:24:58.387Z | ERROR  | URL : /api/expense/v1/group | staus : undefined | message: read ECONNRESET
+2025-02-25T07:26:31.016Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: 68450000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+2025-02-25T07:37:32.058Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-25T07:38:35.438Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email validation fail!! | request received: jd0854@srmist.edu.in
+2025-02-25T07:38:59.817Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-02-25T07:39:34.646Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-04-11T07:49:54.081Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: read ECONNRESET
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+2025-04-11T07:50:47.593Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\whack\SplitApp\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+2025-04-11T07:52:48.135Z | ERROR  | DB Connection Fail | MongooseServerSelectionError: read ECONNRESET
+    at Connection.openUri (C:\Users\whack\SplitApp\node_modules\mongoose\lib\connection.js:819:32)
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:377:10
+    at C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:1220:10)
+    at Mongoose.connect (C:\Users\whack\SplitApp\node_modules\mongoose\lib\index.js:376:20)
+    at Object.<anonymous> (C:\Users\whack\SplitApp\model\schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+2025-04-11T07:53:10.171Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: Operation `users.findOne()` buffering timed out after 10000ms MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\whack\SplitApp\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+2025-04-11T08:02:39.788Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (C:\Users\whack\SplitApp\components\user.js:74:23)
+2025-04-11T08:02:49.863Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (C:\Users\whack\SplitApp\components\user.js:74:23)
+2025-04-11T08:02:54.625Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (C:\Users\whack\SplitApp\components\user.js:74:23)
+2025-04-11T08:04:01.198Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (C:\Users\whack\SplitApp\components\user.js:74:23)
