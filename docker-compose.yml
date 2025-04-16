@@ -1,0 +1,25 @@
+services:
+  backend:
+    build: .
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - PORT=${PORT}
+      - MONGODB_URI=${MONGODB_URI}
+      - ACCESS_TOKEN_SECRET=${ACCESS_TOKEN_SECRET}
+    networks:
+      - splitapp-network
+
+  frontend:
+    build: ./client
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - splitapp-network
+
+networks:
+  splitapp-network:
+    driver: bridge

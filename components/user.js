@@ -58,11 +58,15 @@ Implement Google Sign-in in the future.
 */
 exports.userLogin = async (req, res) => {
     try {
+        console.log("We inside userLogin now!");
         //Checking email Id exist in DB 
         const user = await model.User.findOne({
             emailId: req.body.emailId
         })
+
+        console.log("User found in DB: ", user);
         if (!user) {
+            console.log("Invalid Email ID or Password");
             var err = new Error("Invalid email Id or Password !")
             err.status = 401
             throw err

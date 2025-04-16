@@ -13,7 +13,12 @@ var gorupRouter = require('./routes/groupRouter')
 var expenseRouter = require('./routes/expenseRouter')
 
 var app = express()
-app.use(cors())
+app.use(cors({
+    origin: [
+      'http://localhost:3000',    // Local dev
+      'http://frontend:80'          // Docker service name
+    ]
+  }));
 app.use(express.json())
 app.use(requestLogger)
 
