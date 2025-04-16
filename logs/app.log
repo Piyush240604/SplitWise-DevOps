@@ -777,3 +777,23 @@
     at exports.userLogin (C:\Users\whack\SplitApp\components\user.js:74:23)
 2025-04-15T18:20:17.745Z | INFO   | Server started in PORT | 3001
 2025-04-15T18:20:18.706Z | INFO   | DB Connection Established
+2025-04-16T04:02:52.382Z | INFO   | Server started in PORT | 3001
+2025-04-16T04:02:54.313Z | INFO   | DB Connection Established
+2025-04-16T04:03:27.600Z | INFO   | Server started in PORT | 3001
+2025-04-16T04:03:32.327Z | INFO   | DB Connection Established
+2025-04-16T04:04:20.236Z | INFO   | Server started in PORT | 3001
+2025-04-16T04:04:25.264Z | INFO   | DB Connection Established
+2025-04-16T04:04:53.144Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-04-16T04:04:57.005Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (C:\Users\whack\SplitApp\components\user.js:74:23)
+2025-04-16T04:05:14.879Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-04-16T04:05:17.765Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (C:\Users\whack\SplitApp\components\user.js:74:23)
+2025-04-16T04:05:28.608Z | INFO   | API HIT : [POST] /api/users/v1/login
+2025-04-16T04:05:34.221Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-04-16T04:05:35.223Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-04-16T04:05:36.470Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-04-16T04:05:36.472Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-04-16T04:05:36.483Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-04-16T04:05:36.486Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-04-16T04:05:36.852Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
