@@ -797,3 +797,14 @@
 2025-04-16T04:05:36.483Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
 2025-04-16T04:05:36.486Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
 2025-04-16T04:05:36.852Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2025-04-16T19:45:09.324Z | INFO   | Server started in PORT | 3001
+2025-04-16T19:45:09.666Z | INFO   | DB Connection Established
+2025-04-16T20:33:30.990Z | INFO   | Server started in PORT | 3001
+2025-04-16T20:33:31.437Z | INFO   | DB Connection Established
+2025-04-16T20:33:36.638Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2025-04-16T20:33:36.684Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-04-16T20:33:36.758Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2025-04-16T20:33:36.760Z | INFO   | API HIT : [POST] /api/group/v1/user
+2025-04-16T20:33:36.762Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2025-04-16T20:33:36.764Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2025-04-16T20:33:36.805Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp

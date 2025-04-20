@@ -1,0 +1,15 @@
+global:
+  scrape_interval: 15s  # How often Prometheus scrapes metrics
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']  # Prometheus itself to collect metrics
+
+  - job_name: 'node'
+    static_configs:
+      - targets: ['localhost:9100']  # Example of monitoring a node_exporter (machine stats)
+
+  - job_name: 'your-app'
+    static_configs:
+      - targets: ['<your-application-ip>:<your-app-metrics-port>']  # Scraping your app's metrics
